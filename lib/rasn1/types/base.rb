@@ -406,7 +406,7 @@ module RASN1
           else
             if ber
               raise NotImplementedError, "TAG: indefinite length not " \
-                "supported yet"
+                "supported yet 123"
             else
               raise ASN1Error, "TAG: indefinite length forbidden in DER " \
                 "encoding"
